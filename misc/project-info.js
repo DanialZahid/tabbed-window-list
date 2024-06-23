@@ -37,21 +37,14 @@ const piModalContent = `
 		<p>A simple app with vertical-styled tabs on the left side which show content on the right side when clicked on.</p>
 
 		<ul>
-			<li><a title="On my website" href="https://tabbed-window-list.iamdanial.com/">On my website</a></li>
-			<li><a title="On GitHub" href="https://github.com/DanialZahid/Tabbed-Window-List/">On GitHub</a></li>
-			<li><a title="On CodePen" href="https://codepen.io/danialzahid/pen/LYWvYJw/">On CodePen</a></li>
-		</ul>
-
-		<h3>External Assets</h3>
-
-		<ul>
-			<li><a title="Keyamoon" href="http://keyamoon.com/">Keyamoon</a> — SVG icons</li>
-			<li><a title="Unsplash" href="https://unsplash.com/">Unsplash</a> — Background image</li>
+			<li><a title="View on Vercel" href="https://tabbed-window-list.vercel.app/">View on Vercel</a></li>
+			<li><a title="View on GitHub" href="https://github.com/DanialZahid/tabbed-window-list/">View on GitHub</a></li>
+			<li><a title="View on CodePen" href="https://codepen.io/danialzahid/pen/LYWvYJw/">View on CodePen</a></li>
 		</ul>
 
 		<h3>License</h3>
 
-		<p><a title="MIT" href="https://github.com/DanialZahid/Tabbed-Window-List/blob/main/LICENSE/">MIT</a></p>
+		<p><a title="MIT" href="https://github.com/DanialZahid/tabbed-window-list/blob/main/LICENSE/">MIT</a></p>
 
 	</div>
 </div>
@@ -67,22 +60,22 @@ piFloat.addEventListener("click", piDisplay); // Display modal when clicked on f
 // Display modal function.
 
 function piDisplay() {
-  piBody.append(piModal);
-  piModal.classList.add("pi-modal-display");
-  piBody.setAttribute("class", "pi-overflow-hidden"); // Hide browser scroll when modal is shown.
-  const piModalCloseBtn = document.querySelector(".pi-icon-close"); // Close modal when clicked on close icon.
-  piModalCloseBtn.addEventListener("click", piRemove);
+	piBody.append(piModal);
+	piModal.classList.add("pi-modal-display");
+	piBody.setAttribute("class", "pi-overflow-hidden"); // Hide browser scroll when modal is shown.
+	const piModalCloseBtn = document.querySelector(".pi-icon-close"); // Close modal when clicked on close icon.
+	piModalCloseBtn.addEventListener("click", piRemove);
 }
 
 // Remove modal function.
 
 function piRemove() {
-  piModal.classList.remove("pi-modal-display");
-  piBody.removeAttribute("class");
+	piModal.classList.remove("pi-modal-display");
+	piBody.removeAttribute("class");
 
-  setTimeout(function () {
-    piModal.remove();
-  }, 500); // Wait .5s before removing modal so it completes its animation.
+	setTimeout(function () {
+		piModal.remove();
+	}, 500); // Wait .5s before removing modal so it completes its animation.
 }
 
 /* Attributions

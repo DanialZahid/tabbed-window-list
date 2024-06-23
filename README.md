@@ -4,9 +4,9 @@
 
 A responsive tabbed list.
 
-- [On my website](https://tabbed-window-list.iamdanial.com/)
-- [On GitHub](https://github.com/DanialZahid/Tabbed-Window-List/)
-- [On CodePen](https://codepen.io/danialzahid/pen/LYWvYJw/)
+- [View on Vercel](https://tabbed-window-list.vercel.app/)
+- [View on GitHub](https://github.com/DanialZahid/tabbed-window-list/)
+- [View on CodePen](https://codepen.io/danialzahid/pen/LYWvYJw/)
 
 ## License
 
