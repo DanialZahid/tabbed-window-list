@@ -44,7 +44,7 @@ const piModalContent = `
 
 		<h3>License</h3>
 
-		<p><a title="MIT" href="https://github.com/DanialZahid/tabbed-window-list/blob/main/LICENSE/">MIT</a></p>
+		<p><a title="MIT" href="https://github.com/DanialZahid/tabbed-window-list/blob/main/LICENSE">MIT</a></p>
 
 	</div>
 </div>
